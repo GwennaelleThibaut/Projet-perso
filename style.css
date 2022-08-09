@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: white;
+  font-family: "prompt", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.menu {
+  display: none;
+  text-align: center;
+}
+.contact,
+.signup {
+  text-decoration: none;
+  line-height: 2;
+  color: black;
+}
+.signup {
+  background-color: #cfd2e3;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#sacrose {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.display {
+  display: flex;
+}
+.nombres {
+  text-align: right;
+  margin: 20px;
+  margin-top: 50px;
+}
+.handbags,
+.text {
+  text-align: right;
+}
+
+#sac1,
+#sac2,
+#sac3 {
+  border-radius: 15px;
+}
+.bags {
+  background-color: #cfd2e3;
+  padding: 15px;
+  padding-top: 200px;
+  margin: 15px;
+  margin-top: 50px;
+  border-radius: 15px;
+  position: relative;
+}
+.sac-1 {
+  position: absolute;
+  height: 150px;
+  top: -30px;
+  left: 30px;
+}
+.sac-2 {
+  position: absolute;
+  z-index: 10;
+  right: 20px;
+  top: 80px;
+  height: 200px;
+}
+.sac-3 {
+  height: 190px;
+}
+.scarfs--jewelry--leather {
+  text-align: center;
+  margin: 50px;
+}
+#scarfs,
+#jewelry,
+#leather {
+  border-radius: 15px;
+}
+.bouton {
+  background-color: #cfd2e3;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 8px;
+}
+.patterns--fullset {
+  background-color: #cfd2e3;
+  padding: 20px;
+  color: white;
+}
+.dimension--patterns {
+  background-image: url("pochetteaciseaux.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.dimension--fullset {
+  background-image: url("grandepochette.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+}
+.patterns,
+.fullset {
+  margin: 10px;
+}
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  line-height: 32px;
+}
+.logo {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 400px) {
+  body {
+    flex-direction: row;
+  }
+}
